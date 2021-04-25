@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TunnelServer"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of TunnelServer."
 
   # This description is used to generate tags and improve search results.
@@ -90,12 +90,12 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "demo/TunnelServer.framework/headers/*.{h}"
+  spec.source_files  = "demo/TunnelServices.framework/headers/*.{h}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.vendored_frameworks = 'demo/TunnelServer.framework'
+  spec.vendored_frameworks = 'demo/TunnelServices.framework'
 
-  spec.public_header_files = "demo/TunnelServer.framework/headers/*.{h}"
+  spec.public_header_files = "demo/TunnelServices.framework/headers/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
