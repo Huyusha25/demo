@@ -1,0 +1,11 @@
+framework module TunnelServices {
+  umbrella header "TunnelServices.h"
+
+  export *
+  module * { export * }
+}
+
+module TunnelServices.Swift {
+    header "TunnelServices-Swift.h"
+    requires objc
+}
